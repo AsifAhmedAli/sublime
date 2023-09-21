@@ -12504,6 +12504,10 @@ textarea.form-control-lg {
   font-family: "GilroyLight", sans-serif;
 }
 
+.navbar {
+  padding: 1rem 0;
+}
+
 .navbar-nav .nav-link {
   font-family: "GilroySemibold", sans-serif;
   color: #2b4c7f !important;
@@ -12560,7 +12564,7 @@ h3, .h3 {
   margin-right: auto;
   margin-bottom: 24px;
   width: 100%;
-  height: 6.12in;
+  height: 3.12in;
   object-fit: contain;
   object-position: center center;
 }
@@ -12646,6 +12650,39 @@ h3, .h3 {
   font-family: "GilroySemiBold", sans-serif;
   background-color: #2b4c7f;
   color: #fff;
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.banner h1, .banner .h1 {
+  position: relative;
+  z-index: 3;
+  color: white;
+  font-family: "GilroyBold", sans-serif;
+}
+.banner::before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 76, 127, 0.7);
+}
+.banner.about-us {
+  background-image: url("../images/about-bg.jpg");
+}
+.banner.apply-now {
+  background-image: url("../images/apply-now.jpg");
 }
 
 @media (min-width: 1200px) {
