@@ -1,15 +1,40 @@
-@include media-breakpoint-down(sm) {
-    
-}
-@include media-breakpoint-down(md) {
-    
-}
-@include media-breakpoint-down(lg) {
-    
-}
-@include media-breakpoint-down(xl) {
-    
-}
 @include media-breakpoint-down(xxl) {
-    
+}
+
+@include media-breakpoint-down(xl) {
+}
+
+@include media-breakpoint-down(lg) {
+}
+
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+}
+
+@include media-breakpoint-up(xl) {
+  .btn {
+    min-width: 300px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar-nav {
+    .nav-link {
+      font-size: 36px;
+    }
+  }
 }

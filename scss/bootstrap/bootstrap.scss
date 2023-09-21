@@ -4,7 +4,30 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "GilroyLight";
+  src: url("../font/Gilroy-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("../font/Gilroy-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("../font/Gilroy-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url("../font/Gilroy-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../font/Gilroy-Bold.woff2") format("woff2");
+}
 
 // scss-docs-start import-stack
 // Configuration
