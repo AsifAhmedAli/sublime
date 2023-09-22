@@ -12679,7 +12679,12 @@ h3, .h3 {
   border: 1px solid rgba(43, 76, 127, 0.4);
   border-radius: 12.5rem;
   background-repeat: no-repeat;
-  background-position: center right 0.5rem;
+  background-size: 24px;
+  background-position: center right 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.measures input[type=checkbox] + label:hover {
+  box-shadow: 0 0 3px #2b4c7f;
 }
 .measures input[type=checkbox]:checked + label {
   background-color: #2b4c7f;
