@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./slick/slick-theme.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./images/sublime-logo.png" height="" alt="" />
+          <img src="./images/sublime-logo.svg" height="70" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -40,17 +42,55 @@
     </nav>
 
     <section class="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 ms-auto">
-            <h1 class="text-end">
-              Funded energy <br />
-              saving specialists
-            </h1>
-            <p class="punch text-end">
-              We're experts at securing energy saving funding and installing
-              energy efficient improvements into homes and businesses
-            </p>
+      <div class="banners">
+        <div>
+          <div class="container">
+            <div class="row gy-4 justify-content-between align-items-center">
+              <div class="col-lg-7">
+                <h1>
+                  Sublime Home <br />
+                  Upgrades & Installation
+                </h1>
+                <p class="punch">
+                  We're experts at securing energy saving funding and installing
+                  energy efficient improvements into homes
+                </p>
+                <a href="" class="btn btn-outline-primary">Learn More</a>
+              </div>
+              <div class="col-lg-4">
+                <img
+                  src="./images/banner-1.jpg"
+                  class="w-100"
+                  height="auto"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="container">
+            <div class="row gy-4 justify-content-between align-items-center">
+              <div class="col-lg-7">
+                <h1>
+                  Funded energy <br />
+                  saving specialists
+                </h1>
+                <p class="punch">
+                  We're experts at securing energy saving funding and installing
+                  energy efficient improvements into homes
+                </p>
+                <a href="" class="btn btn-outline-primary">Learn More</a>
+              </div>
+              <div class="col-lg-4">
+                <img
+                  src="./images/banner-1.jpg"
+                  class="w-100"
+                  height="auto"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -155,7 +195,9 @@
             </div>
           </div>
           <div class="col-12 text-center">
-            <a href="./apply-now.html" class="btn btn-primary">Apply for Funding</a>
+            <a href="./apply-now.html" class="btn btn-primary"
+              >Apply for Funding</a
+            >
           </div>
         </div>
       </div>
@@ -224,7 +266,9 @@
             </div>
           </div>
           <div class="col-12 text-center">
-            <a href="./apply-now.html" class="btn bg-white text-primary">Apply for Funding</a>
+            <a href="./apply-now.html" class="btn bg-white text-primary"
+              >Apply for Funding</a
+            >
           </div>
         </div>
       </div>
@@ -275,7 +319,9 @@
             </div>
           </div>
           <div class="col-12 text-center">
-            <a href="./apply-now.html" class="btn btn-primary">Apply for Funding</a>
+            <a href="./apply-now.html" class="btn btn-primary"
+              >Apply for Funding</a
+            >
           </div>
         </div>
       </div>
@@ -401,5 +447,14 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./slick/slick.js"></script>
+
+    <script>
+      $(".banners").slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows: true,
+      });
+    </script>
   </body>
 </html>

@@ -5,9 +5,29 @@
 }
 
 @include media-breakpoint-down(lg) {
+  section {
+    padding: 40px 0 !important;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
 }
 
 @include media-breakpoint-down(md) {
+  .hero {
+    .punch {
+      font-size: 1rem;
+    }
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .why-us {
+    .box {
+      padding: 1.5rem;
+      border-radius: 50px;
+    }
+  }
 }
 
 @include media-breakpoint-down(sm) {
@@ -15,11 +35,11 @@
 
 @include media-breakpoint-up(xl) {
   .btn {
-    min-width: 300px;
+    min-width: 200px;
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   h2 {
@@ -34,7 +54,7 @@
 @include media-breakpoint-up(lg) {
   .navbar-nav {
     .nav-link {
-      font-size: 36px;
+      font-size: 20px;
     }
   }
 }

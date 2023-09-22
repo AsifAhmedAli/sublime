@@ -48,6 +48,7 @@ h3 {
 .hero {
   background-color: $primarylight;
   padding: 80px 0;
+  overflow-x: hidden;
 
   .punch {
     font-size: 30px;

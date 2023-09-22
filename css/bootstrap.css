@@ -2310,7 +2310,7 @@ progress {
   width: 100%;
   padding: 1rem 2rem;
   font-family: "GilroySemiBold", sans-serif;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -2320,11 +2320,6 @@ progress {
   appearance: none;
   border-radius: 12.5rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-@media (min-width: 1200px) {
-  .form-control {
-    font-size: 1.5rem;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -2483,7 +2478,7 @@ textarea.form-control-lg {
   padding: 1rem 6rem 1rem 2rem;
   -moz-padding-start: calc(2rem - 3px);
   font-family: "GilroySemiBold", sans-serif;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -2496,11 +2491,6 @@ textarea.form-control-lg {
   border-radius: 12.5rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
-}
-@media (min-width: 1200px) {
-  .form-select {
-    font-size: 1.5rem;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .form-select {
@@ -2805,7 +2795,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -2814,11 +2804,6 @@ textarea.form-control-lg {
   background-color: #e9ecef;
   border: 1px solid #ced4da;
   border-radius: 12.5rem;
-}
-@media (min-width: 1200px) {
-  .input-group-text {
-    font-size: 1.5rem;
-  }
 }
 
 .input-group-lg > .form-control,
@@ -3052,14 +3037,9 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 1rem 2rem;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.15rem;
   border-radius: 12.5rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-@media (min-width: 1200px) {
-  .btn {
-    font-size: 1.5rem;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -12536,6 +12516,7 @@ h3, .h3 {
 .hero {
   background-color: #dfe7f8;
   padding: 80px 0;
+  overflow-x: hidden;
 }
 .hero .punch {
   font-size: 30px;
@@ -12706,12 +12687,32 @@ h3, .h3 {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-check' viewBox='0 0 16 16'%3E%3Cpath d='M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z'/%3E%3C/svg%3E");
 }
 
+@media (max-width: 991.98px) {
+  section {
+    padding: 40px 0 !important;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .punch {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .why-us .box {
+    padding: 1.5rem;
+    border-radius: 50px;
+  }
+}
 @media (min-width: 1200px) {
   .btn {
-    min-width: 300px;
+    min-width: 200px;
   }
   h1, .h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   h2, .h2 {
     font-size: 44px;
@@ -12722,6 +12723,6 @@ h3, .h3 {
 }
 @media (min-width: 992px) {
   .navbar-nav .nav-link {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
