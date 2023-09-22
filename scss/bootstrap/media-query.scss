@@ -28,6 +28,45 @@
       border-radius: 50px;
     }
   }
+  .funding {
+    img {
+      width: 0.6in;
+      height: 0.6in;
+      display: inline-block;
+      margin: 0 8px 0 0;
+    }
+    h4 {
+      &:first-child {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      &:last-child {
+        display: inline-block;
+      }
+    }
+  }
+
+  .services {
+    .box {
+      img {
+        height: 1.5in;
+      }
+    }
+  }
+
+  .eligibility {
+    img {
+      width: 0.6in;
+      height: 0.6in;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .brands {
+    img {
+      height: 1.07in !important;
+    }
+  }
 }
 
 @include media-breakpoint-down(sm) {

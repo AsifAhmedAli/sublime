@@ -1,3 +1,5 @@
+$base-transition: all 0.2s ease-in-out !default;
+
 .fw-medium {
   font-family: "GilroyMedium", sans-serif;
 }
@@ -18,10 +20,23 @@
   padding: 1rem 0;
 }
 
+.btn {
+  transition: $base-transition;
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
 .navbar-nav {
   .nav-link {
     font-family: "GilroySemibold", sans-serif;
     color: $primary !important;
+    transition: $base-transition;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom-color: $primary;
+    }
   }
 }
 
@@ -81,6 +96,10 @@ h3 {
       height: 3.12in;
       object-fit: contain;
       object-position: center center;
+      transition: $base-transition;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
     .service,
     .description {
@@ -112,6 +131,10 @@ h3 {
     object-fit: contain;
     object-position: center center;
     margin: 2rem auto;
+    transition: $base-transition;
+    &:hover {
+      transform: rotate3d(1, 1, 1, 4deg);
+    }
   }
   .heading {
     font-family: "GilroySemiBold", sans-serif;
@@ -128,6 +151,10 @@ h3 {
     object-fit: contain;
     object-position: center center;
     margin: 0 auto 2rem;
+    transition: $base-transition;
+    &:hover {
+      transform: rotateY(180deg);
+    }
   }
   .heading {
     font-family: "GilroySemiBold", sans-serif;
@@ -153,6 +180,10 @@ h3 {
     height: 2.07in !important;
     object-fit: contain;
     object-position: center center;
+    transition: $base-transition;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -220,7 +251,7 @@ h3 {
       background-repeat: no-repeat;
       background-size: 24px;
       background-position: center right 1rem;
-      transition: all .2s ease-in-out;
+      transition: $base-transition;
 
       &:hover {
         box-shadow: 0 0 3px $primary;
