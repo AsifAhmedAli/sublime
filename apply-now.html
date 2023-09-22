@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./images/sublime-logo.svg" height="70" alt="" />
@@ -23,8 +23,13 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav gap-12 align-items-center ms-auto mb-2 mb-lg-0">
+        <div
+          class="collapse navbar-collapse pt-md-0 pt-4"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav gap-md-12 gap-4 align-items-center ms-auto mb-2 mb-lg-0"
+          >
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
@@ -32,7 +37,11 @@
               <a class="nav-link" href="./about-us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary" href="./apply-now.html">Apply Now</a>
+              <a
+                class="btn btn-primary d-md-inline-block d-block"
+                href="./apply-now.html"
+                >Apply Now</a
+              >
             </li>
           </ul>
         </div>
@@ -61,7 +70,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr />
         <div class="row">
           <div class="col-md-8 mx-auto">
             <form action="">
@@ -69,84 +78,96 @@
               <p>Multiple options can be selected</p>
               <div class="row gy-3 measures">
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="0">
+                  <input type="checkbox" name="measures" id="0" />
                   <label for="0">First Time Central Heating</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="1">
+                  <input type="checkbox" name="measures" id="1" />
                   <label for="1">Electric Storage Heaters</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="2">
+                  <input type="checkbox" name="measures" id="2" />
                   <label for="2">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="3">
+                  <input type="checkbox" name="measures" id="3" />
                   <label for="3">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="4">
+                  <input type="checkbox" name="measures" id="4" />
                   <label for="4">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="5">
+                  <input type="checkbox" name="measures" id="5" />
                   <label for="5">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="6">
+                  <input type="checkbox" name="measures" id="6" />
                   <label for="6">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="7">
+                  <input type="checkbox" name="measures" id="7" />
                   <label for="7">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="8">
+                  <input type="checkbox" name="measures" id="8" />
                   <label for="8">ABC</label>
                 </div>
                 <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="9">
+                  <input type="checkbox" name="measures" id="9" />
                   <label for="9">ABC</label>
                 </div>
               </div>
-              <hr>
+              <hr />
               <h4>Other Information</h4>
               <div class="row gy-6">
                 <div class="col-md-6">
-                  <label for="" class="form-label">How are you related to property?</label>
+                  <label for="" class="form-label"
+                    >How are you related to property?</label
+                  >
                   <select name="" id="" class="form-select"></select>
                 </div>
                 <div class="col-md-6">
-                  <label for="" class="form-label">How do you currently heat your home?</label>
+                  <label for="" class="form-label"
+                    >How do you currently heat your home?</label
+                  >
                   <select name="" id="" class="form-select"></select>
                 </div>
                 <div class="col-md-6">
-                  <label for="" class="form-label">Are you or any of your household members claiming any benefits?</label>
+                  <label for="" class="form-label"
+                    >Are you or any of your household members claiming any
+                    benefits?</label
+                  >
                   <select name="" id="" class="form-select"></select>
                 </div>
                 <div class="col-md-6">
-                  <label for="" class="form-label">Is your combined household income is below $31k annually?</label>
+                  <label for="" class="form-label"
+                    >Is your combined household income is below $31k
+                    annually?</label
+                  >
                   <select name="" id="" class="form-select"></select>
                 </div>
               </div>
-              <hr>
+              <hr />
               <h4>Personal Information</h4>
               <div class="row gy-6">
                 <div class="col-12">
                   <label for="" class="form-label">First Name</label>
-                  <input type="text" class="form-control">
+                  <input type="text" class="form-control" />
                 </div>
                 <div class="col-12">
                   <label for="" class="form-label">Phone</label>
-                  <input type="tel" class="form-control">
+                  <input type="tel" class="form-control" />
                 </div>
                 <div class="col-12">
                   <label for="" class="form-label">Email</label>
-                  <input type="email" class="form-control">
+                  <input type="email" class="form-control" />
                 </div>
               </div>
               <div class="text-end mt-3">
-                <button type="submit" class="btn btn-primary">Submit All</button>
+                <button type="submit" class="btn btn-primary">
+                  Submit All
+                </button>
               </div>
             </form>
           </div>
