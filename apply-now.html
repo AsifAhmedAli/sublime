@@ -74,100 +74,205 @@
         <div class="row">
           <div class="col-md-8 mx-auto">
             <form action="">
-              <h4>1. What measures we can help you with?</h4>
-              <p>Multiple options can be selected</p>
-              <div class="row gy-3 measures">
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="0" />
-                  <label for="0">First Time Central Heating</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="1" />
-                  <label for="1">Electric Storage Heaters</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="2" />
-                  <label for="2">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="3" />
-                  <label for="3">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="4" />
-                  <label for="4">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="5" />
-                  <label for="5">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="6" />
-                  <label for="6">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="7" />
-                  <label for="7">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="8" />
-                  <label for="8">ABC</label>
-                </div>
-                <div class="col-md-6">
-                  <input type="checkbox" name="measures" id="9" />
-                  <label for="9">ABC</label>
-                </div>
-              </div>
-              <hr />
-              <h4>Other Information</h4>
-              <div class="row gy-6">
-                <div class="col-md-6">
-                  <label for="" class="form-label"
-                    >How are you related to property?</label
-                  >
-                  <select name="" id="" class="form-select"></select>
-                </div>
-                <div class="col-md-6">
-                  <label for="" class="form-label"
-                    >How do you currently heat your home?</label
-                  >
-                  <select name="" id="" class="form-select"></select>
-                </div>
-                <div class="col-md-6">
-                  <label for="" class="form-label"
-                    >Are you or any of your household members claiming any
-                    benefits?</label
-                  >
-                  <select name="" id="" class="form-select"></select>
-                </div>
-                <div class="col-md-6">
-                  <label for="" class="form-label"
-                    >Is your combined household income is below $31k
-                    annually?</label
-                  >
-                  <select name="" id="" class="form-select"></select>
+              <div id="chose-measures">
+                <h4>1. What measures we can help you with?</h4>
+                <p>Multiple options can be selected</p>
+                <div class="row gy-3 measures">
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="0" />
+                    <label for="0">First Time Central Heating</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="1" />
+                    <label for="1">Electric Storage Heaters</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="2" />
+                    <label for="2">Cavity Wall Insulation</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="3" />
+                    <label for="3">Loft Insulation</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="4" />
+                    <label for="4">Room in Roof Insulation</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="5" />
+                    <label for="5">Solid Wall Insulation</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="6" />
+                    <label for="6">Replacement Boiler</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="7" />
+                    <label for="7">Heat Pump</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="8" />
+                    <label for="8">Solar PV</label>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="checkbox" name="measures" id="9" />
+                    <label for="9">Other</label>
+                  </div>
+                  <div class="col-12">
+                    <div class="d-flex gap-2 justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        id="move-property"
+                      >
+                        Continue
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <hr />
-              <h4>Personal Information</h4>
-              <div class="row gy-6">
-                <div class="col-12">
-                  <label for="" class="form-label">First Name</label>
-                  <input type="text" class="form-control" />
-                </div>
-                <div class="col-12">
-                  <label for="" class="form-label">Phone</label>
-                  <input type="tel" class="form-control" />
-                </div>
-                <div class="col-12">
-                  <label for="" class="form-label">Email</label>
-                  <input type="email" class="form-control" />
+              <div id="chose-property" class="d-none">
+                <h4>Other Information</h4>
+                <div class="row gy-6">
+                  <div class="col-md-6">
+                    <label for="" class="form-label"
+                      >How are you related to property?</label
+                    >
+                    <select name="" id="" class="form-select">
+                      <option value="" disabled selected>Select</option>
+                      <option value="">Home Owner</option>
+                      <option value="">Private Tenant</option>
+                      <option value="">Living with Landlord</option>
+                      <option value="">Housing Association Tenant</option>
+                      <option value="">Council Property</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="" class="form-label"
+                      >How do you currently heat your home?</label
+                    >
+                    <select name="" id="" class="form-select">
+                      <option value="" disabled selected>
+                        No central heating/ no radiators
+                      </option>
+                      <option value="">Combi Boiler Older than 15 Years</option>
+                      <option value="">System Boiler</option>
+                      <option value="">Back Boiler</option>
+                      <option value="">Range (AGA/Stanly)</option>
+                      <option value="">Electric Storage Heaters</option>
+                      <option value="">Electric Boiler</option>
+                      <option value="">Other/Unsure</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="" class="form-label"
+                      >Are you or any of your household members claiming any
+                      benefits?</label
+                    >
+                    <div class="row g-4 measures">
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-1" />
+                        <label for="benefit-1">Universal Credits</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-2" />
+                        <label for="benefit-2">Tax Credits</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-3" />
+                        <label for="benefit-3">Pension Credits</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-4" />
+                        <label for="benefit-4">ESA</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-5" />
+                        <label for="benefit-5">Income Support</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-6" />
+                        <label for="benefit-6">JSA</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-7" />
+                        <label for="benefit-7">Housing Benefit</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-8" />
+                        <label for="benefit-8">Child Benefit</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-9" />
+                        <label for="benefit-9">Not sure/ Others</label>
+                      </div>
+                      <div class="col-md-6">
+                        <input type="checkbox" name="benefits" id="benefit-10" />
+                        <label for="benefit-10">No benefits</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="" class="form-label"
+                      >Is your combined household income is below $31k
+                      annually?</label
+                    >
+                    <select name="" id="" class="form-select">
+                      <option value="">Yes</option>
+                      <option value="">No</option>
+                      <option value="">Not sure</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <div class="d-flex gap-2 justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary"
+                        id="move-measures"
+                      >
+                        Previous
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        id="move-personal-info"
+                      >
+                        Continue
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="text-end mt-3">
-                <button type="submit" class="btn btn-primary">
-                  Submit All
-                </button>
+              <div id="chose-personal-info" class="d-none">
+                <h4>Personal Information</h4>
+                <div class="row gy-6">
+                  <div class="col-12">
+                    <label for="" class="form-label">First Name</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="col-12">
+                    <label for="" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" />
+                  </div>
+                  <div class="col-12">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" />
+                  </div>
+                  <div class="col-12">
+                    <div class="d-flex gap-2 justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary"
+                        id="move-back-property"
+                      >
+                        Previous
+                      </button>
+                      <button class="btn btn-primary" id="move-personal-info">
+                        Submit All
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
@@ -183,5 +288,23 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
+    <script>
+      $("#move-property").click(function () {
+        $("#chose-measures").toggleClass("d-none", "d-block", 300);
+        $("#chose-property").toggleClass("d-none", "d-block", 300);
+      });
+      $("#move-measures").click(function () {
+        $("#chose-measures").toggleClass("d-none", "d-block", 300);
+        $("#chose-property").toggleClass("d-none", "d-block", 300);
+      });
+      $("#move-personal-info").click(function () {
+        $("#chose-personal-info").toggleClass("d-none", "d-block", 300);
+        $("#chose-property").toggleClass("d-none", "d-block", 300);
+      });
+      $("#move-back-property").click(function () {
+        $("#chose-personal-info").toggleClass("d-none", "d-block", 300);
+        $("#chose-property").toggleClass("d-none", "d-block", 300);
+      });
+    </script>
   </body>
 </html>
