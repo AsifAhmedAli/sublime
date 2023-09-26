@@ -18,6 +18,8 @@ $base-transition: all 0.2s ease-in-out !default;
 
 .navbar {
   padding: 1rem 0;
+  z-index: 2;
+  background-color: $white;
 }
 
 .btn {
@@ -91,7 +93,7 @@ h3 {
       margin-right: auto;
       margin-bottom: 24px;
       width: 100%;
-      height: 3.12in;
+      height: 1.5in;
       object-fit: contain;
       object-position: center center;
       transition: $base-transition;
@@ -124,8 +126,8 @@ h3 {
     color: $white;
   }
   img {
-    width: 1.62in;
-    height: 1.62in;
+    width: 1in;
+    height: 1in;
     object-fit: contain;
     object-position: center center;
     margin: 2rem auto;
@@ -144,8 +146,8 @@ h3 {
 .eligibility {
   padding: 80px 0;
   img {
-    width: 1.77in;
-    height: 1.77in;
+    width: 1in;
+    height: 1in;
     object-fit: contain;
     object-position: center center;
     margin: 0 auto 2rem;
@@ -175,7 +177,7 @@ h3 {
   padding: 80px 0;
   img {
     width: 100%;
-    height: 2.07in !important;
+    height: 1.5in !important;
     object-fit: contain;
     object-position: center center;
     transition: $base-transition;
@@ -192,7 +194,7 @@ h3 {
 .copyright {
   padding: 1.5rem 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 14px;
   font-family: "GilroySemiBold", sans-serif;
   background-color: $primary;
   color: $white;

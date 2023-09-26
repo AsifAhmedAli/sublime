@@ -74,7 +74,7 @@
 
 @include media-breakpoint-up(xl) {
   .btn {
-    min-width: 200px;
+    min-width: 150px;
   }
 
   h1 {
@@ -87,6 +87,14 @@
 
   h3 {
     font-size: 48px;
+  }
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1250px;
   }
 }
 
