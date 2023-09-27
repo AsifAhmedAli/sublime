@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apply Now</title>
+    <title>Apply Now - Sublime Energy Services</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-white position-sticky top-0">
+    <nav
+      class="navbar navbar-expand-xl navbar-light bg-white position-sticky top-0"
+    >
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="./images/sublime-logo.svg" height="70" alt="" />
         </a>
         <button
@@ -27,14 +29,94 @@
           class="collapse navbar-collapse pt-md-0 pt-4"
           id="navbarSupportedContent"
         >
-          <ul
-            class="navbar-nav gap-md-12 gap-4 align-items-center ms-auto mb-2 mb-lg-0"
-          >
+          <ul class="navbar-nav gap-4 align-items-center ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about-us.html">About Us</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Funding
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">History</a>
+                <a class="dropdown-item" href="#">What is Eco 4?</a>
+                <a class="dropdown-item" href="#">How do I qualify?</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Heating Products & Solutions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="list-unstyled">
+                  <li class="has-submenu">
+                    <a class="dropdown-item" href="#"
+                      >Insallation & Upgradation</a
+                    >
+                    <div class="submenu">
+                      <a href="" class="submenu-item"
+                        >Central Heating Installation</a
+                      >
+                      <a href="" class="submenu-item">Combination Boiler</a>
+                    </div>
+                  </li>
+                  <li class="has-submenu">
+                    <a class="dropdown-item" href="#">Replacement</a>
+                    <div class="submenu">
+                      <a href="" class="submenu-item"
+                        >Back Boiler Replacement</a
+                      >
+                      <a href="" class="submenu-item"
+                        >G Rated Electric Storage Heater Replacement</a
+                      >
+                    </div>
+                  </li>
+                  <li class="has-submenu">
+                    <a class="dropdown-item" href="#">Renewables</a>
+                    <div class="submenu">
+                      <a href="" class="submenu-item">Air Source Heat Pumps</a>
+                      <a href="" class="submenu-item"
+                        >Ground Source Heat Pumps</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+                <a class="dropdown-item" href="#">Renewables</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./about-us.html">About Sublime</a>
+                <a class="dropdown-item" href="#">Blogs</a>
+                <a class="dropdown-item" href="#">Why choose us?</a>
+              </div>
             </li>
             <li class="nav-item">
               <a
@@ -52,7 +134,7 @@
       <h1 class="text-center">Apply Now</h1>
     </section>
 
-    <section class="banner-2">
+    <section class="banner-2 pt-6">
       <div class="container">
         <div class="text-center">
           <h2 class="text-primary mb-8">Enter Your Postal Code</h2>
@@ -61,7 +143,11 @@
               <form action="" class="mb-4">
                 <div class="form-group mb-0">
                   <div class="input-group mb-0">
-                    <input type="text" class="form-control bg-white shadow-sm" placeholder="ENTER POSTCODE" />
+                    <input
+                      type="text"
+                      class="form-control bg-white shadow-sm"
+                      placeholder="ENTER POSTCODE"
+                    />
                     <button class="btn btn-primary shadow-sm">CHECK</button>
                   </div>
                   <div class="invalid-feedback">Address is not available</div>
@@ -207,7 +293,11 @@
                         <label for="benefit-9">Not sure/ Others</label>
                       </div>
                       <div class="col-md-6">
-                        <input type="checkbox" name="benefits" id="benefit-10" />
+                        <input
+                          type="checkbox"
+                          name="benefits"
+                          id="benefit-10"
+                        />
                         <label for="benefit-10">No benefits</label>
                       </div>
                     </div>

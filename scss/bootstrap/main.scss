@@ -1,20 +1,20 @@
 $base-transition: all 0.2s ease-in-out !default;
 
-.fw-medium {
-  font-family: "GilroyMedium", sans-serif;
-}
+// .fw-medium {
+//   font-family: "GilroyMedium", sans-serif;
+// }
 
-.fw-semibold {
-  font-family: "GilroySemiBold", sans-serif;
-}
+// .fw-semibold {
+//   font-family: "GilroySemiBold", sans-serif;
+// }
 
-.fw-bold {
-  font-family: "GilroyBold", sans-serif;
-}
+// .fw-bold {
+//   font-family: "GilroyBold", sans-serif;
+// }
 
-.fw-light {
-  font-family: "GilroyLight", sans-serif;
-}
+// .fw-light {
+//   font-family: "GilroyLight", sans-serif;
+// }
 
 .navbar {
   padding: 1rem 0;
@@ -30,11 +30,55 @@ $base-transition: all 0.2s ease-in-out !default;
 }
 
 .navbar-nav {
+  .nav-item {
+    &.dropdown {
+      .dropdown-menu {
+        .has-submenu {
+          position: relative;
+          top: 0;
+          &:hover {
+            .submenu {
+              display: block;
+            }
+          }
+        }
+        .dropdown-item {
+          font-size: 18px;
+          padding: 1rem 2rem;
+        }
+        .submenu {
+          position: absolute;
+          left: 100%;
+          top: 0;
+          background-color: white;
+          border-radius: .5rem;
+          display: none;
+          min-width: 300px;
+          padding: 8px 0;
+          .submenu-item {
+            text-decoration: none;
+            padding: .5rem 1rem;
+            display: block;
+            &:hover {
+              background-color: #e9ecef;
+            }
+          }
+        }
+      }
+      &:hover {
+        .dropdown-menu {
+          display: block;
+        }
+      }
+    }
+  }
   .nav-link {
-    font-family: "GilroySemibold", sans-serif;
+    // font-family: "GilroySemiBold", sans-serif;
+    font-weight: 400;
     color: $primary !important;
     transition: $base-transition;
     border-bottom: 2px solid transparent;
+    text-align: center;
 
     &:hover {
       border-bottom-color: $primary;
@@ -43,22 +87,27 @@ $base-transition: all 0.2s ease-in-out !default;
 }
 
 h1 {
-  font-family: "GilroyRegular", sans-serif;
+  // font-family: "GilroyRegular", sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
   color: $primary;
 }
 
 h2 {
-  font-family: "GilroyMedium", sans-serif;
+  // font-family: "GilroyMedium", sans-serif;
+  font-weight: 500;
 }
 
 h3 {
   color: $primary;
-  font-family: "GilroySemiBold", sans-serif;
+  // font-family: "GilroySemiBold", sans-serif;
+  font-weight: 600;
 }
 
 .text {
   color: $primary;
-  font-family: "GilroyRegular", sans-serif;
+  // font-family: "GilroyRegular", sans-serif;
+  font-weight: 400;
 }
 
 .hero {
@@ -152,7 +201,8 @@ h3 {
     }
   }
   .heading {
-    font-family: "GilroySemiBold", sans-serif;
+    // font-family: "GilroySemiBold", sans-serif;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 0;
   }
@@ -172,7 +222,8 @@ h3 {
     }
   }
   .heading {
-    font-family: "GilroySemiBold", sans-serif;
+    // font-family: "GilroySemiBold", sans-serif;
+    font-weight: 600;
     font-size: 24px;
     margin-bottom: 1rem;
     color: $primary;
@@ -196,9 +247,9 @@ h3 {
     object-fit: contain;
     object-position: center center;
     transition: $base-transition;
-    &:hover {
-      transform: scale(1.1);
-    }
+    // &:hover {
+    //   transform: scale(1.1);
+    // }
   }
 }
 
@@ -230,7 +281,8 @@ h3 {
   padding: 1.5rem 0;
   text-align: center;
   font-size: 14px;
-  font-family: "GilroySemiBold", sans-serif;
+  // font-family: "GilroySemiBold", sans-serif;
+  font-weight: 600;
   background-color: $primary;
   color: $white;
 }
@@ -239,7 +291,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 60vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,7 +300,9 @@ h3 {
     position: relative;
     z-index: 3;
     color: white;
-    font-family: "GilroyBold", sans-serif;
+    // font-family: "GilroyBold", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
   }
   &::before {
     position: absolute;
