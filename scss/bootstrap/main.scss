@@ -110,10 +110,33 @@ h3 {
   font-weight: 400;
 }
 
+.slick-dotted {
+  margin-bottom: 0 !important;
+  .slick-dots {
+    bottom: 0 !important;
+  }
+}
+
 .hero {
   background-color: $primarylight;
-  padding: 100px 0;
+  padding: 0;
   overflow-x: hidden;
+
+  .banners {
+    position: relative;
+
+    .home-banner {
+      padding: 40px 0 100px 0;
+      height: 90vh;
+      background-repeat: no-repeat;
+
+      &.banner-1 {
+        background-image: url('../images/home-banner-1.png');
+        background-size: 100%;
+        background-position: bottom left;
+      }
+    }
+  }
 
   .punch {
     font-size: 20px;

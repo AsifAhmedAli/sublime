@@ -24,6 +24,10 @@
   section {
     padding: 40px 0 !important;
   }
+
+  .hero {
+    padding: 0 !important;
+  }
   .copyright {
     font-size: 1rem;
   }
@@ -33,6 +37,11 @@
   .hero {
     .punch {
       font-size: 1rem;
+    }
+    .banners {
+      .home-banner {
+        height: 100%;
+      }
     }
   }
   .text {

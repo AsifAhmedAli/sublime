@@ -12522,10 +12522,30 @@ h3, .h3 {
   font-weight: 400;
 }
 
+.slick-dotted {
+  margin-bottom: 0 !important;
+}
+.slick-dotted .slick-dots {
+  bottom: 0 !important;
+}
+
 .hero {
   background-color: #dfe7f8;
-  padding: 100px 0;
+  padding: 0;
   overflow-x: hidden;
+}
+.hero .banners {
+  position: relative;
+}
+.hero .banners .home-banner {
+  padding: 40px 0 100px 0;
+  height: 90vh;
+  background-repeat: no-repeat;
+}
+.hero .banners .home-banner.banner-1 {
+  background-image: url("../images/home-banner-1.png");
+  background-size: 100%;
+  background-position: bottom left;
 }
 .hero .punch {
   font-size: 20px;
@@ -12765,6 +12785,9 @@ h3, .h3 {
   section {
     padding: 40px 0 !important;
   }
+  .hero {
+    padding: 0 !important;
+  }
   .copyright {
     font-size: 1rem;
   }
@@ -12772,6 +12795,9 @@ h3, .h3 {
 @media (max-width: 767.98px) {
   .hero .punch {
     font-size: 1rem;
+  }
+  .hero .banners .home-banner {
+    height: 100%;
   }
   .text {
     font-size: 1rem;
