@@ -12463,8 +12463,10 @@ textarea.form-control-lg {
   position: relative;
   top: 0;
 }
-.navbar-nav .nav-item.dropdown .dropdown-menu .has-submenu:hover .submenu {
-  display: block;
+@media (hover) {
+  .navbar-nav .nav-item.dropdown .dropdown-menu .has-submenu:hover .submenu {
+    display: block;
+  }
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
   font-size: 18px;
@@ -12488,8 +12490,10 @@ textarea.form-control-lg {
 .navbar-nav .nav-item.dropdown .dropdown-menu .submenu .submenu-item:hover {
   background-color: #e9ecef;
 }
-.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
-  display: block;
+@media (hover) {
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
 .navbar-nav .nav-link {
   font-weight: 400;
@@ -12829,6 +12833,15 @@ h3, .h3 {
   }
   .brands img {
     height: 1.07in !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero .banners .home-banner.banner-1 {
+    background-size: 350%;
+    background-position: right 40% bottom -36px;
+  }
+  .hero .banners .home-banner.banner-2 img {
+    max-height: 240px !important;
   }
 }
 @media (min-width: 1200px) {

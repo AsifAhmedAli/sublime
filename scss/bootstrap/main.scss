@@ -37,8 +37,10 @@ $base-transition: all 0.2s ease-in-out !default;
           position: relative;
           top: 0;
           &:hover {
-            .submenu {
-              display: block;
+            @media (hover) {
+              .submenu {
+                display: block;
+              }
             }
           }
         }
@@ -51,13 +53,13 @@ $base-transition: all 0.2s ease-in-out !default;
           left: 100%;
           top: 0;
           background-color: white;
-          border-radius: .5rem;
+          border-radius: 0.5rem;
           display: none;
           min-width: 300px;
           padding: 8px 0;
           .submenu-item {
             text-decoration: none;
-            padding: .5rem 1rem;
+            padding: 0.5rem 1rem;
             display: block;
             &:hover {
               background-color: #e9ecef;
@@ -66,8 +68,10 @@ $base-transition: all 0.2s ease-in-out !default;
         }
       }
       &:hover {
-        .dropdown-menu {
-          display: block;
+        @media (hover) {
+          .dropdown-menu {
+            display: block;
+          }
         }
       }
     }
@@ -131,7 +135,7 @@ h3 {
       background-repeat: no-repeat;
 
       &.banner-1 {
-        background-image: url('../images/home-banner-1.png');
+        background-image: url("../images/home-banner-1.png");
         background-size: 100%;
         background-position: bottom left;
       }
@@ -282,7 +286,7 @@ h3 {
     position: relative;
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       left: 0;
       top: 0;
       width: 100%;
