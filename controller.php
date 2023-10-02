@@ -41,7 +41,7 @@ foreach ($measures as $key => $value) {
 }
 $body .= "Are you or any of your household members claiming any benefits?:<br>";
 foreach ($benefits1 as $key => $value) {
-    $body .= $value .": ". $value ."<br>";
+    $body .= "=> ".  $value ."<br>";
 }
 // echo "<script>console.log('".$body."')</script>";
 // //Import PHPMailer classes into the global namespace
