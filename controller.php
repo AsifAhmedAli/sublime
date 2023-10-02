@@ -1,4 +1,11 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
 $data = $_POST['data'];
 $data = json_decode($data);
 // $measures = $data
@@ -22,28 +29,23 @@ $fullname = $data->fullname;
 $email = $data->email;
 $phone = $data->phone;
 
-$body .= $dropdowna .": ". $dropdowna."<br>";
-$body .= $howheat .": ". $howheat."<br>";
-$body .= $incomeanual .": ". $incomeanual."<br>";
-$body .= $fullname .": ". $fullname."<br>";
-$body .= $email .": ". $email."<br>";
-$body .= $phone .": ". $phone."<br>";
+$body .= "How are you related to property?: ". $dropdowna."<br>";
+$body .= "How do you currently heat your home?: ". $howheat."<br>";
+$body .= "Is your combined household income is below $31k annually?: ". $incomeanual."<br>";
+$body .= "Full Name: ". $fullname."<br>";
+$body .= "Email: ". $email."<br>";
+$body .= "Phone: ". $phone."<br>";
+$body .= "What measures we can help you with?:<br>";
 foreach ($measures as $key => $value) {
-    $body .= $value .": ". $value."<br>";
+    $body .= "=> ". $value."<br>";
 }
-
+$body .= "Are you or any of your household members claiming any benefits?:<br>";
 foreach ($benefits1 as $key => $value) {
     $body .= $value .": ". $value ."<br>";
 }
-echo "<script>console.log('".$body."')</script>";
+// echo "<script>console.log('".$body."')</script>";
 // //Import PHPMailer classes into the global namespace
 // //These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
-//Load Composer's autoloader
-require 'vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);

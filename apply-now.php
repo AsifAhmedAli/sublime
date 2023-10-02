@@ -246,7 +246,7 @@
                       >How do you currently heat your home?</label
                     >
                     <select name="" id="howheat" class="form-select">
-                      <option value="" selected>
+                      <option value="No central heating/ no radiators" selected>
                         No central heating/ no radiators
                       </option>
                       <option value="Combi Boiler Older than 15 Years">Combi Boiler Older than 15 Years</option>
@@ -388,7 +388,7 @@
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
     </section>
-    <div id="div1"></div>
+    <div id="div1" class="d-none"></div>
     <div class="loading" id="loader1" style="visibility: hidden;">Loading&#8230;</div>
     <script src="./js/jquery-3.7.0.js"></script>
     <script src="./js/popper.min.js"></script>
