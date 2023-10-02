@@ -64,9 +64,13 @@ try {
 
     //Recipients
     $mail->setFrom('sender@ssublime.co.uk', 'Sublime Energy Services');
-    $mail->addAddress($email, 'Jutt');     //Add a recipient
+    $mail->addAddress("rafzal10@yahoo.com");     //Add a recipient
+    $mail->addAddress("irfan.nazar@ssublime.co.uk");     //Add a recipient
+    $mail->addAddress("Social@ssublime.co.uk");     //Add a recipient
+    
+    
     // $mail->addAddress('asif@mexil.it');               //Name is optional
-    $mail->addReplyTo('sender@ssublime.co.uk', 'Sublime Energy Services');
+    // $mail->addReplyTo('sender@ssublime.co.uk', 'Sublime Energy Services');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 

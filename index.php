@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./slick/slick.css" />
     <link rel="stylesheet" href="./slick/slick-theme.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SCWJE42270"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SCWJE42270');
+</script>
   </head>
   <body>
     <nav
