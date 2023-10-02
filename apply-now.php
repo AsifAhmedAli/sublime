@@ -465,30 +465,30 @@ var data = JSON.stringify({
     success: function (response) {
       console.log(response)
       document.getElementById("div1").innerHTML = response;
-      // Swal.fire({
-      //   icon: "success",
-      //   title: "Successful!",
-      //   text: "Device Ordered Successfully",
-      //   allowOutsideClick: false,
-      // });
-      // $("button.swal2-confirm").click(function () {
-      //   window.location.reload();
-      // });
+      Swal.fire({
+        icon: "success",
+        title: "Successful!",
+        text: "Submitted Successfully",
+        allowOutsideClick: false,
+      });
+      $("button.swal2-confirm").click(function () {
+        window.location.reload();
+      });
       document.getElementById("loader1").style.visibility = "hidden";
     },
     error: function (response) {
       console.log(response);
 
       // if (response.responseJSON.message == "Already Ordered") {
-      //   Swal.fire({
-      //     icon: "error",
-      //     title: "Failed!",
-      //     text: response.responseJSON.message,
-      //     allowOutsideClick: false,
-      //   });
-      //   $("button.swal2-confirm").click(function () {
-      //     window.location.reload();
-      //   });
+        Swal.fire({
+          icon: "error",
+          title: "Failed!",
+          text: "Internal Server Error",
+          allowOutsideClick: false,
+        });
+        $("button.swal2-confirm").click(function () {
+          window.location.reload();
+        });
       // }
     },
   });
