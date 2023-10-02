@@ -116,7 +116,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -135,7 +135,7 @@
                 <a class="dropdown-item" href="#">Blogs</a>
                 <a class="dropdown-item" href="#">Why choose us?</a>
               </div>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 class="btn btn-primary d-md-inline-block d-block"
