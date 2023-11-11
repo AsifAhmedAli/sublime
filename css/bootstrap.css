@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 :root {
   --bs-blue: #2b4c7f;
   --bs-indigo: #6610f2;
@@ -4672,27 +4673,27 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .accordion-item:first-of-type {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.875rem;
+  border-top-right-radius: 0.875rem;
 }
 .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0.875rem - 1px);
+  border-top-right-radius: calc(0.875rem - 1px);
 }
 .accordion-item:not(:first-of-type) {
   border-top: 0;
 }
 .accordion-item:last-of-type {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.875rem;
+  border-bottom-left-radius: 0.875rem;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(0.875rem - 1px);
+  border-bottom-left-radius: calc(0.875rem - 1px);
 }
 .accordion-item:last-of-type .accordion-collapse {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.875rem;
+  border-bottom-left-radius: 0.875rem;
 }
 
 .accordion-body {
@@ -12458,6 +12459,24 @@ textarea.form-control-lg {
 .btn:hover {
   transform: translateY(-4px);
 }
+.btn.icon-btn {
+  max-width: 49.6px;
+  min-width: 49.6px;
+  min-height: 49.6px;
+  max-height: 49.6px;
+  padding: 0;
+}
+
+.form-toggle-container {
+  transform: translateY(-50px);
+}
+
+.toggle-form {
+  position: relative;
+  transform: translateY(50%);
+  text-align: center;
+  padding: 0 !important;
+}
 
 .navbar-nav .nav-item.dropdown .dropdown-menu .has-submenu {
   position: relative;
@@ -12550,6 +12569,16 @@ h3, .h3 {
   background-image: url("../images/home-banner-1.png");
   background-size: 100%;
   background-position: bottom left;
+}
+.hero .banners .home-banner.banner-2 {
+  background-image: url("../images/banner-2.png");
+  background-size: 32% !important;
+  background-position: bottom right;
+}
+.hero .banners .home-banner.banner-3 {
+  background-image: url("../images/home-banner-3.jpg");
+  background-size: 50% !important;
+  background-position: bottom right;
 }
 .hero .punch {
   font-size: 20px;
@@ -12646,6 +12675,7 @@ h3, .h3 {
   padding: 80px 0;
 }
 .eligibility img {
+  cursor: pointer;
   width: 1in;
   height: 1in;
   object-fit: contain;
@@ -12654,7 +12684,7 @@ h3, .h3 {
   transition: all 0.2s ease-in-out;
 }
 .eligibility img:hover {
-  transform: rotateY(180deg);
+  transform: scale(1.1);
 }
 .eligibility .heading {
   font-weight: 600;
@@ -12664,11 +12694,8 @@ h3, .h3 {
 }
 
 .faq {
-  background-color: #55af5b;
+  background-color: #e2e2e2;
   padding: 80px 0;
-}
-.faq * {
-  color: #fff;
 }
 
 .brands {
@@ -12680,6 +12707,9 @@ h3, .h3 {
   object-fit: contain;
   object-position: center center;
   transition: all 0.2s ease-in-out;
+}
+.brands .slick-dots {
+  bottom: -25px !important;
 }
 
 .contact {
@@ -12799,9 +12829,26 @@ h3, .h3 {
 @media (max-width: 767.98px) {
   .hero .punch {
     font-size: 1rem;
+    margin: 20px 0;
   }
   .hero .banners .home-banner {
     height: 100%;
+    padding: 40px 0 180px 0;
+  }
+  .hero .banners .home-banner.banner-1 {
+    background-size: 228% !important;
+    background-position: right 60% bottom -36px !important;
+  }
+  .hero .banners .home-banner.banner-1 .col-lg-7 {
+    text-align: left !important;
+  }
+  .hero .banners .home-banner.banner-2 {
+    background-size: 40%;
+    background-position: left 1rem bottom;
+  }
+  .hero .banners .home-banner.banner-3 {
+    background-size: 100% !important;
+    background-position: bottom center;
   }
   .text {
     font-size: 1rem;

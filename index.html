@@ -99,9 +99,7 @@
                       <a href="" class="submenu-item"
                         >Ground Source Heat Pumps</a
                       >
-                      <a href="" class="submenu-item"
-                        >Solar PV</a
-                      >
+                      <a href="" class="submenu-item">Solar PV</a>
                     </div>
                   </li>
                 </ul>
@@ -188,7 +186,7 @@
                   >Learn More</a
                 >
               </div>
-              <div class="col-lg-5">
+              <!-- <div class="col-lg-5">
                 <img
                   src="./images/banner-2.png"
                   class="w-100"
@@ -196,11 +194,11 @@
                   style="max-height: 400px; object-fit: contain"
                   alt=""
                 />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
-        <div class="home-banner banner-2">
+        <div class="home-banner banner-3">
           <div class="container h-100">
             <div
               class="row h-100 gy-4 justify-content-between align-items-center"
@@ -218,51 +216,67 @@
                   >Learn More</a
                 >
               </div>
-              <div class="col-lg-5">
+              <!-- <div class="col-lg-5">
                 <img
                   src="./images/home-banner-3.jpg"
                   class="w-100"
                   height="auto"
                   alt=""
                 />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="millions" class="millions">
-      <div class="container">
-        <div class="row align-items-center g-lg-6 g-4">
-          <div class="col-md-8 mx-auto">
-            <h2 class="text-white text-center">
-              Millions of homes are qualified under Eco and local Authority
-              schemes
-            </h2>
-            <p class="text text-center text-white">
-              Check what measures your property could be eligible for, takes
-              less than 60 seconds.
-            </p>
-          </div>
-          <div class="col-md-6 mx-auto">
-            <form action="" class="mb-4">
-              <div class="form-group mb-0">
-                <div class="input-group mb-0">
-                  <input
-                    type="text"
-                    class="form-control bg-white shadow-sm"
-                    placeholder="ENTER POSTCODE"
-                  />
-                  <button class="btn btn-primary shadow-sm">CHECK</button>
-                </div>
-                <div class="invalid-feedback">Address is not available</div>
+    <div class="form-toggle-container">
+      <section class="toggle-form">
+        <button
+          class="btn icon-btn btn-light rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          <i class="bi bi-arrow-down"></i>
+        </button>
+      </section>
+      <div class="collapse" id="collapseExample">
+        <section id="millions" class="millions">
+          <div class="container">
+            <div class="row align-items-center g-lg-6 g-4">
+              <div class="col-md-8 mx-auto">
+                <h2 class="text-white text-center">
+                  Millions of homes are qualified under Eco and local Authority
+                  schemes
+                </h2>
+                <p class="text text-center text-white">
+                  Check what measures your property could be eligible for, takes
+                  less than 60 seconds.
+                </p>
               </div>
-            </form>
+              <div class="col-md-6 mx-auto">
+                <form action="" class="mb-4">
+                  <div class="form-group mb-0">
+                    <div class="input-group mb-0">
+                      <input
+                        type="text"
+                        class="form-control bg-white shadow-sm"
+                        placeholder="ENTER POSTCODE"
+                      />
+                      <button class="btn btn-primary shadow-sm">CHECK</button>
+                    </div>
+                    <div class="invalid-feedback">Address is not available</div>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
-    </section>
+    </div>
 
     <section class="services" id="services">
       <div class="container">
@@ -435,32 +449,158 @@
         <div class="row gy-6 pt-12">
           <div class="col-md-4">
             <div class="text-center">
-              <img src="./images/eligibility-1.svg" alt="" />
+              <img
+                src="./images/eligibility-1.svg"
+                data-bs-toggle="modal"
+                data-bs-target="#dwpBenefit"
+                alt=""
+              />
               <h4 class="heading">DWP Approved Benefits</h4>
               <p class="text">
                 If you have a total combined household income of £31,000 or
                 less.
               </p>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="dwpBenefit"
+                tabindex="-1"
+                aria-labelledby="dwpBenefitLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="dwpBenefitLabel">
+                        DWP Benefits
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      If you have a total combined household income of £31,000
+                      or less.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        OK.
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="text-center">
-              <img src="./images/eligibility-2.svg" alt="" />
+              <img
+                src="./images/eligibility-2.svg"
+                data-bs-toggle="modal"
+                data-bs-target="#childBenefit"
+                alt=""
+              />
               <h4 class="heading">Child Benefits</h4>
               <p class="text">
                 If you have a total combined household income of £31,000 or
                 less.
               </p>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="childBenefit"
+                tabindex="-1"
+                aria-labelledby="childBenefitLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="childBenefitLabel">
+                        Child Benefits
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      If you have a total combined household income of £31,000
+                      or less.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        OK.
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="text-center">
-              <img src="./images/eligibility-3.svg" alt="" />
+              <img
+                src="./images/eligibility-3.svg"
+                data-bs-toggle="modal"
+                data-bs-target="#flexBenefit"
+                alt=""
+              />
               <h4 class="heading">LA Flex Scheme</h4>
               <p class="text">
                 If you have a total combined household income of £31,000 or
                 less.
               </p>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="flexBenefit"
+                tabindex="-1"
+                aria-labelledby="flexBenefitLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="flexBenefitLabel">
+                        LA Flex Scheme
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      If you have a total combined household income of £31,000
+                      or less.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        OK.
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-12 text-center">
@@ -474,9 +614,99 @@
 
     <section class="faq" id="faq">
       <div class="container">
-        <h3 class="text-center text-white mb-12">Your Questions Answered</h3>
+        <h3 class="text-center text-primary mb-12">Your Questions Answered</h3>
+        <div class="accordion mb-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What Energy Saving Measures Could I Get?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Most people know the scheme as a free boiler replacement scheme
+                however under ECO 4 the following energy-saving measures are
+                available
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Where does the money come from?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Funding for your Home Energy Improvements is paid for by the
+                Leading Energy Companies such as British Gas, SSE, Scottish
+                Power, N-Power and so on. They have a quota to fill for
+                improving the energy performance of UK Homes and can face large
+                fines if they miss their targets. The aim is to reduce how much
+                fuel UK households use on average. To improve this they aim to
+                make generating heat cheaper (with new boilers), and maintaining
+                heat easier (with insulation).
+                <br />
+                The money for these improvements comes from the profits of
+                companies everyone is contributing to monthly, in our energy
+                bills. It doesn't come from the Government the same way that
+                things like Universal Credit does.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                How do I apply?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                You can apply for ECO 4 Funding by applying online. Our team
+                will then contact you to take you through the process and advise
+                which measures you qualify for. Apply Now.
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row gy-6">
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <h4 class="fw-semibold mb-8">
               What Energy Saving Measures Could I Get?
             </h4>
@@ -540,9 +770,9 @@
               then contact you to take you through the process and advise which
               measures you qualify for. Apply Now.
             </p>
-          </div>
+          </div> -->
           <div class="col-12 text-center">
-            <a href="" class="btn bg-white text-primary">Ask a Question?</a>
+            <a href="" class="btn btn-primary">Ask a Question?</a>
           </div>
         </div>
       </div>

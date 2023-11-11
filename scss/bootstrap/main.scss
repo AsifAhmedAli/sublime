@@ -27,6 +27,24 @@ $base-transition: all 0.2s ease-in-out !default;
   &:hover {
     transform: translateY(-4px);
   }
+  &.icon-btn {
+    max-width: 49.6px;
+    min-width: 49.6px;
+    min-height: 49.6px;
+    max-height: 49.6px;
+    padding: 0;
+  }
+}
+
+.form-toggle-container {
+  transform: translateY(-50px);
+}
+
+.toggle-form {
+  position: relative;
+  transform: translateY(50%);
+  text-align: center;
+  padding: 0 !important;
 }
 
 .navbar-nav {
@@ -139,6 +157,18 @@ h3 {
         background-size: 100%;
         background-position: bottom left;
       }
+
+      &.banner-2 {
+        background-image: url("../images/banner-2.png");
+        background-size: 32% !important;
+        background-position: bottom right;
+      }
+
+      &.banner-3 {
+        background-image: url("../images/home-banner-3.jpg");
+        background-size: 50% !important;
+        background-position: bottom right;
+      }
     }
   }
 
@@ -238,6 +268,7 @@ h3 {
 .eligibility {
   padding: 80px 0;
   img {
+    cursor: pointer;
     width: 1in;
     height: 1in;
     object-fit: contain;
@@ -245,7 +276,7 @@ h3 {
     margin: 0 auto 2rem;
     transition: $base-transition;
     &:hover {
-      transform: rotateY(180deg);
+      transform: scale(1.1);
     }
   }
   .heading {
@@ -258,12 +289,12 @@ h3 {
 }
 
 .faq {
-  background-color: $accent;
+  background-color: #e2e2e2;
   padding: 80px 0;
 
-  * {
-    color: $white;
-  }
+  // * {
+  //   color: $white;
+  // }
 }
 
 .brands {
@@ -277,6 +308,9 @@ h3 {
     // &:hover {
     //   transform: scale(1.1);
     // }
+  }
+  .slick-dots {
+    bottom: -25px !important;
   }
 }
 

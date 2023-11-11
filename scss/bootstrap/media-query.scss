@@ -37,10 +37,27 @@
   .hero {
     .punch {
       font-size: 1rem;
+      margin: 20px 0;
     }
     .banners {
       .home-banner {
         height: 100%;
+        padding: 40px 0 180px 0;
+        &.banner-1 {
+          background-size: 228% !important;
+          background-position: right 60% bottom -36px !important;
+          .col-lg-7 {
+            text-align: left !important;
+          }
+        }
+        &.banner-2 {
+          background-size: 40%;
+          background-position: left 1rem bottom;
+        }
+        &.banner-3 {
+          background-size: 100% !important;
+          background-position: bottom center;
+        }
       }
     }
   }
