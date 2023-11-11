@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Sublime Energy Services</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <link rel="stylesheet" href="./css/bootstrap.css" />
   </head>
   <body>
@@ -11,7 +12,7 @@
       class="navbar navbar-expand-xl navbar-light bg-white position-sticky top-0"
     >
       <div class="container">
-        <a class="navbar-brand" href="./index.html">
+        <a class="navbar-brand" href="./index.php">
           <img src="./images/sublime-logo.svg" height="70" alt="" />
         </a>
         <button
@@ -31,7 +32,7 @@
         >
           <ul class="navbar-nav gap-4 align-items-center ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="./index.php">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -105,7 +106,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -118,17 +119,17 @@
                 About Us
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./about-us.html"
+                <a class="dropdown-item" href="./about-us.php"
                   >About Sublime</a
                 >
                 <a class="dropdown-item" href="#">Blogs</a>
                 <a class="dropdown-item" href="#">Why choose us?</a>
               </div>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 class="btn btn-primary d-md-inline-block d-block"
-                href="./apply-now.html"
+                href="./apply-now.php"
                 >Check Eligibility</a
               >
             </li>
@@ -232,7 +233,7 @@
             </div>
           </div>
           <div class="col-12 text-center">
-            <a href="./apply-now.html" class="btn bg-white text-primary"
+            <a href="./apply-now.php" class="btn bg-white text-primary"
               >Apply for Funding</a
             >
           </div>
