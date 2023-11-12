@@ -29,11 +29,20 @@
     padding: 0 !important;
   }
   .copyright {
+    padding: 1rem !important;
     font-size: 1rem;
   }
 }
 
 @include media-breakpoint-down(md) {
+  .navbar-collapse {
+    position: fixed;
+    top: 76px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: $white;
+  }
   .hero {
     .punch {
       font-size: 1rem;
@@ -51,8 +60,8 @@
           }
         }
         &.banner-2 {
-          background-size: 40%;
-          background-position: left 1rem bottom;
+          background-size: 70% !important;
+          background-position: center bottom;
         }
         &.banner-3 {
           background-size: 100% !important;
@@ -107,6 +116,15 @@
   .brands {
     img {
       height: 1.07in !important;
+    }
+  }
+  
+  .contact {
+    .contact-image {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      object-position: center center;
     }
   }
 }

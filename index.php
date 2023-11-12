@@ -4,18 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sublime Energy Services</title>
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="./images/home-banner-1.webp"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="./images/banner-2.webp"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="./images/home-banner-3.webp"
+      type="image/webp"
+    />
+
     <link rel="stylesheet" href="./slick/slick.css" />
     <link rel="stylesheet" href="./slick/slick-theme.css" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SCWJE42270"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SCWJE42270"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-SCWJE42270');
-</script>
+      gtag("config", "G-SCWJE42270");
+    </script>
   </head>
   <body>
     <nav
@@ -23,7 +52,12 @@
     >
       <div class="container">
         <a class="navbar-brand" href="./index.php">
-          <img src="./images/sublime-logo.svg" height="70" alt="" />
+          <img
+            src="./images/sublime-logo.svg"
+            height="50"
+            width="201.9"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -153,7 +187,11 @@
             <div
               class="row h-100 gy-4 justify-content-between align-items-center"
             >
-              <div class="col-lg-7 ms-auto text-end">
+              <div
+                class="col-lg-7 ms-auto text-end"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
                 <h1>
                   Sublime Home <br />
                   Upgrades & Installation
@@ -214,8 +252,8 @@
             >
               <div class="col-lg-7">
                 <h1>
-                  Funded energy <br />
-                  saving specialists
+                  Funded Energy <br />
+                  Saving Specialists
                 </h1>
                 <p class="punch">
                   We're experts at securing energy saving funding and installing
@@ -274,6 +312,7 @@
                         type="text"
                         class="form-control bg-white shadow-sm"
                         placeholder="ENTER POSTCODE"
+                        required
                       />
                       <button class="btn btn-primary shadow-sm">CHECK</button>
                     </div>
@@ -297,9 +336,13 @@
           following:
         </p>
         <div class="row gx-lg-6 gy-12 g-4">
-          <div class="col-lg-4 col-md-6 col-12">
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="box">
-              <img src="./images/service-1.png" alt="" />
+              <img src="./images/service-1.webp" alt="" />
               <h4 class="service fw-semibold">Free Air Source Heat Pump</h4>
               <p class="description mb-0">
                 Install renewable Energy with an Air Source Heat Pump.
@@ -307,9 +350,13 @@
               <a href="">Learn More</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="box">
-              <img src="./images/service-2.png" alt="" />
+              <img src="./images/service-2.webp" alt="" />
               <h4 class="service fw-semibold">Free Solar Pannels</h4>
               <p class="description mb-0">
                 Installing solar panels can contribute upto 40% of your energy
@@ -318,9 +365,13 @@
               <a href="">Learn More</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="box">
-              <img src="./images/service-3.png" alt="" />
+              <img src="./images/service-3.webp" alt="" />
               <h4 class="service fw-semibold">Free Boiler Upgradation</h4>
               <p class="description mb-0">
                 improve efficiency by replacing old inefficient with A rated
@@ -329,9 +380,13 @@
               <a href="">Learn More</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="box">
-              <img src="./images/service-41.png" alt="" />
+              <img src="./images/service-41.webp" alt="" />
               <h4 class="service fw-semibold">Free central heating</h4>
               <p class="description mb-0">
                 Shifting from old heating ways to latest Central heating system
@@ -340,9 +395,13 @@
               <a href="">Learn More</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="box">
-              <img src="./images/service-5.png" alt="" />
+              <img src="./images/service-5.webp" alt="" />
               <h4 class="service fw-semibold">Free whole house insulation</h4>
               <p class="description mb-0">
                 Sublime Whole House Insulation not only cuts energy bills but
@@ -351,9 +410,13 @@
               <a href="">Learn More</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div class="box">
-              <img src="./images/service-4.png" alt="" />
+              <img src="./images/service-4.webp" alt="" />
               <h4 class="service fw-semibold">Free smart heating controls</h4>
               <p class="description mb-0">
                 Access the latest technology to control, track and mange your
@@ -376,9 +439,13 @@
         <div class="box">
           <div class="row align-items-center gy-6">
             <div class="col-lg-5">
-              <img src="./images/why-choose.png" class="w-100 h-auto" alt="" />
+              <img src="./images/why-choose.webp" class="w-100 h-auto" alt="" />
             </div>
-            <div class="col-lg-7 text-center">
+            <div
+              class="col-lg-7 text-center"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <h3>
                 Why Choose Sublime <br />
                 Energy Services
@@ -412,21 +479,21 @@
           </div>
         </div>
         <div class="row gy-12 pt-12">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-center">
               <h4 class="heading">Step 1</h4>
               <img src="./images/funding-1.svg" alt="" />
               <h4 class="heading">Check Your Eligibility</h4>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-center">
               <h4 class="heading">Step 2</h4>
               <img src="./images/funding-2.svg" alt="" />
               <h4 class="heading">Book Your Survey</h4>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-center">
               <h4 class="heading">Step 3</h4>
               <img src="./images/funding-3.svg" alt="" />
@@ -456,7 +523,7 @@
           </div>
         </div>
         <div class="row gy-6 pt-12">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-center">
               <img
                 src="./images/eligibility-1.svg"
@@ -469,46 +536,9 @@
                 If you have a total combined household income of £31,000 or
                 less.
               </p>
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="dwpBenefit"
-                tabindex="-1"
-                aria-labelledby="dwpBenefitLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="dwpBenefitLabel">
-                        DWP Benefits
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      If you have a total combined household income of £31,000
-                      or less.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        OK.
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-center">
               <img
                 src="./images/eligibility-2.svg"
@@ -521,46 +551,9 @@
                 If you have a total combined household income of £31,000 or
                 less.
               </p>
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="childBenefit"
-                tabindex="-1"
-                aria-labelledby="childBenefitLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="childBenefitLabel">
-                        Child Benefits
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      If you have a total combined household income of £31,000
-                      or less.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        OK.
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-center">
               <img
                 src="./images/eligibility-3.svg"
@@ -573,43 +566,6 @@
                 If you have a total combined household income of £31,000 or
                 less.
               </p>
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="flexBenefit"
-                tabindex="-1"
-                aria-labelledby="flexBenefitLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="flexBenefitLabel">
-                        LA Flex Scheme
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      If you have a total combined household income of £31,000
-                      or less.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        OK.
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div class="col-12 text-center">
@@ -621,7 +577,7 @@
       </div>
     </section>
 
-    <section class="faq" id="faq">
+    <section class="faq" id="faq" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <h3 class="text-center text-primary mb-12">Your Questions Answered</h3>
         <div class="accordion mb-4" id="accordionExample">
@@ -787,21 +743,21 @@
       </div>
     </section>
 
-    <section class="brands" id="brands">
+    <section class="brands" id="brands" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <h2 class="text-center text-primary mb-12">Trusted Brands</h2>
         <div class="trusted-brands">
           <div>
-            <img src="./images/brand-1.png" alt="" />
+            <img src="./images/brand-1.webp" alt="" />
           </div>
           <div>
-            <img src="./images/brand-2.png" alt="" />
+            <img src="./images/brand-2.webp" alt="" />
           </div>
           <div>
             <img src="./images/brand-3.png" alt="" />
           </div>
           <div>
-            <img src="./images/brand-4.png" alt="" />
+            <img src="./images/brand-4-1.webp" alt="" />
           </div>
           <div>
             <img src="./images/brand-4.webp" alt="" />
@@ -831,23 +787,26 @@
           <div class="col-12">
             <div class="background">
               <div class="row align-items-center g-lg-6 g-4">
-                <div class="col-md-6 text-center">
-                  <img src="./images/mark-map.png" alt="" />
+                <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000">
+                  <img src="./images/mark-map.webp" class="contact-image" width="336px" height="500px" alt="" />
                 </div>
-                <div class="col-md-6">
-                  <ul class="ps-0 list-unstyled d-flex flex-column gap-12">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                  <ul class="ps-0 list-unstyled d-flex flex-column gap-md-12 gap-3">
                     <li>
-                      <div class="fs-5 d-flex align-items-center gap-2">
+                      <div class="fs-6 d-flex gap-2">
+                        <i class="bi bi-telephone-fill text-primary"></i>
                         01274878333
                       </div>
                     </li>
                     <li>
-                      <div class="fs-5 d-flex align-items-center gap-2">
+                      <div class="fs-6 d-flex gap-2">
+                        <i class="bi bi-envelope-at-fill text-primary"></i>
                         info@sublimeenergyservices.co.uk
                       </div>
                     </li>
                     <li>
-                      <div class="fs-5 d-flex align-items-center gap-2">
+                      <div class="fs-6 d-flex gap-2">
+                        <i class="bi bi-geo-alt-fill text-primary"></i>
                         Nano park, 6 Flanshaw Way, Kelley way, Wakefield WF2
                         9FW, United Kingdom
                       </div>
@@ -864,6 +823,111 @@
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
     </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="dwpBenefit"
+      tabindex="-1"
+      aria-labelledby="dwpBenefitLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dwpBenefitLabel">DWP Benefits</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            If you have a total combined household income of £31,000 or less.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              OK.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="childBenefit"
+      tabindex="-1"
+      aria-labelledby="childBenefitLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="childBenefitLabel">Child Benefits</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            If you have a total combined household income of £31,000 or less.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              OK.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="flexBenefit"
+      tabindex="-1"
+      aria-labelledby="flexBenefitLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="flexBenefitLabel">LA Flex Scheme</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            If you have a total combined household income of £31,000 or less.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              OK.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./js/jquery-3.7.0.js"></script>
     <script src="./js/popper.min.js"></script>
@@ -911,6 +975,10 @@
           },
         ],
       });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
