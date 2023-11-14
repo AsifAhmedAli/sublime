@@ -16,6 +16,14 @@ $base-transition: all 0.2s ease-in-out !default;
 //   font-family: "GilroyLight", sans-serif;
 // }
 
+.service-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
 .navbar {
   padding: .5rem 0;
   z-index: 999;

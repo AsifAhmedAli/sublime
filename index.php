@@ -91,9 +91,9 @@
                 Funding
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">History</a>
-                <a class="dropdown-item" href="#">What is Eco 4?</a>
-                <a class="dropdown-item" href="#">How do I qualify?</a>
+                <a class="dropdown-item" href="./about-us.php">History</a>
+                <a class="dropdown-item" href="./echo-4.php">What is Eco 4?</a>
+                <a class="dropdown-item" href="./how-qualify.php">How do I qualify?</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -115,22 +115,22 @@
                       >Insallation & Upgradation</a
                     >
                     <div class="submenu">
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Central Heating Installation</a
                       >
-                      <a href="" class="submenu-item">Combination Boiler</a>
+                      <a href="./service-page-1.php" class="submenu-item">Combination Boiler</a>
                     </div>
                   </li>
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Replacement</a>
                     <div class="submenu">
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Back Boiler Replacement</a
                       >
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >G Rated Electric Storage Heater Replacement</a
                       >
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Inefficient Boiler Replacement</a
                       >
                     </div>
@@ -138,11 +138,11 @@
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Renewables</a>
                     <div class="submenu">
-                      <a href="" class="submenu-item">Air Source Heat Pumps</a>
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item">Air Source Heat Pumps</a>
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Ground Source Heat Pumps</a
                       >
-                      <a href="" class="submenu-item">Solar PV</a>
+                      <a href="./service-page-1.php" class="submenu-item">Solar PV</a>
                     </div>
                   </li>
                 </ul>
