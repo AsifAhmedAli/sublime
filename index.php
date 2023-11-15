@@ -245,7 +245,7 @@
             </div>
           </div>
         </div>
-<!--         <div class="home-banner banner-3">
+       <div class="home-banner banner-3">
           <div class="container h-100">
             <div
               class="row h-100 gy-4 justify-content-between align-items-center"
@@ -265,7 +265,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div> 
       </div>
     </section>
 
