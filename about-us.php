@@ -13,7 +13,12 @@
     >
       <div class="container">
         <a class="navbar-brand" href="./index.php">
-          <img src="./images/sublime-logo.svg" height="70" alt="" />
+          <img
+            src="./images/sublime-logo.svg"
+            height="50"
+            width="201.9"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -47,9 +52,9 @@
                 Funding
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">History</a>
-                <a class="dropdown-item" href="#">What is Eco 4?</a>
-                <a class="dropdown-item" href="#">How do I qualify?</a>
+                <a class="dropdown-item" href="./about-us.php">About Us</a>
+                <a class="dropdown-item" href="./echo-4.php">What is Eco 4?</a>
+                <a class="dropdown-item" href="./how-qualify.php">How do I qualify?</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -71,22 +76,22 @@
                       >Insallation & Upgradation</a
                     >
                     <div class="submenu">
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Central Heating Installation</a
                       >
-                      <a href="" class="submenu-item">Combination Boiler</a>
+                      <a href="./service-page-1.php" class="submenu-item">Combination Boiler</a>
                     </div>
                   </li>
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Replacement</a>
                     <div class="submenu">
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Back Boiler Replacement</a
                       >
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >G Rated Electric Storage Heater Replacement</a
                       >
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Inefficient Boiler Replacement</a
                       >
                     </div>
@@ -94,13 +99,11 @@
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Renewables</a>
                     <div class="submenu">
-                      <a href="" class="submenu-item">Air Source Heat Pumps</a>
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item">Air Source Heat Pumps</a>
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Ground Source Heat Pumps</a
                       >
-                      <a href="" class="submenu-item"
-                        >Solar PV</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Solar PV</a>
                     </div>
                   </li>
                 </ul>
@@ -142,28 +145,26 @@
       <h1 class="text-center">About Us</h1>
     </section>
 
-    <section class="banner-2">
+
+
+    <section class="banner-2 pb-lg-0">
       <div class="container">
         <div class="text-center">
           <h2 class="text-primary">Who are We?</h2>
           <p class="text mb-12">
-            We are the North East's Leading energy saving experts…
+            We are one of the esteemed industry leaders & saving experts in energy-saving solutions.
           </p>
           <div class="row">
             <div class="col-lg-10 mx-auto">
-              <h5 class="fw-medium text-center mb-0">
-                We are the North East's leading energy saving experts, helping
-                you to take a 'whole home' approach to energy efficiency. We
-                have helped Hartlepool and North east based homes lose less, use
-                less and generate more making homes more comfortable, helping
-                reduce energy consumption and most importantly saving homeowners
-                money. To find out how we can help you save money with our range
-                of green services, finance and funding please call us (Local
-                Rate) on T: 01429 275575 or alternatively email
-                info@borthwickheating.co.uk. A member of our experienced team
-                will be more than happy to discuss all of the available options
-                we have available for you.
-              </h5>
+              <p class="text-center mb-0">
+                   Our dedicated team of experts specializes in helping homeowners adopt a comprehensive "whole house approach" to energy efficiency.
+With our extensive experience, we have successfully assisted homeowners throughout England, Scotland, and Wales in reducing energy loss, optimizing energy consumption, and maximizing energy generation. Our ultimate goal is to enhance home comfort, minimize energy usage, and generate significant cost savings for our valued customers.
+<br>
+<br>
+Take the first step towards saving money and embracing a greener lifestyle by discovering how we can assist you. Contact us today at T: <a href="tel:01924 80621">01924 80621</a> (Local Rate) or email us at <a href="mailto:info@sublimeenergyservices.co.uk">info@sublimeenergyservices.co.uk</a>. Our knowledgeable team is eager to discuss the wide range of green services we offer, as well as explore funding opportunities tailored to your specific needs.
+<br>
+Join the ever-growing community of satisfied customers who have already benefited from our exceptional services. Reach out to us now and let us help you create a more energy-efficient and cost-effective home.
+              </p>
             </div>
           </div>
         </div>
@@ -195,6 +196,30 @@
       </div>
     </section>
 
+<section class="banner-2 pt-lg-0">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-primary">Our Vision</h2>
+          <p class="text mb-12">
+            Our vision is to lead the way in delivering a zero carbon society.
+
+          </p>
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <p class="text-center mb-0">
+                  We are committed to working with individuals ,communities, and government to save energy and reduce carbon emissions.
+To tackle the challenge of achieving zero carbon targets, we believe in reducing energy consumption, installing new sustainable infrastructure, and promoting low carbon lifestyles. Our team provides expert advice and support, advocating for a smart, decarbonized, and decentralized energy system.
+<br>
+We prioritize homes and communities recognizing the wider societal and environmental benefits of energy saving. 
+Our aim is to actively address climate change by encouraging everyone to save energy, inspiring change through the power of people and technology, influencing individuals to reduce consumption, and supporting communities in generating and accessing renewable energy.<br>
+<br>
+Join us on this journey towards a greener future. Together, let's make a positive impact and create a zero carbon society.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="funding" id="funding">
       <div class="container">
         <div class="row">
@@ -243,6 +268,14 @@
 
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
+      <div class="d-flex text-center mt-3">
+          <div class="col-6 pe-2 text-end">
+              <a style="color:white;" href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div class="col-6 ps-2 text-start">
+              <a style="color:white;" href="./disclaimer.html">Disclaimer</a>
+          </div>
+      </div>
     </section>
 
     <script src="./js/jquery-3.7.0.js"></script>

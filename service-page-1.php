@@ -52,11 +52,9 @@
                 Funding
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./about-us.php">History</a>
+                <a class="dropdown-item" href="./about-us.php">About Us</a>
                 <a class="dropdown-item" href="./echo-4.php">What is Eco 4?</a>
-                <a class="dropdown-item" href="./how-qualify.php"
-                  >How do I qualify?</a
-                >
+                <a class="dropdown-item" href="./how-qualify.php">How do I qualify?</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -81,9 +79,7 @@
                       <a href="./service-page-1.php" class="submenu-item"
                         >Central Heating Installation</a
                       >
-                      <a href="./service-page-1.php" class="submenu-item"
-                        >Combination Boiler</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Combination Boiler</a>
                     </div>
                   </li>
                   <li class="has-submenu">
@@ -103,15 +99,11 @@
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Renewables</a>
                     <div class="submenu">
-                      <a href="./service-page-1.php" class="submenu-item"
-                        >Air Source Heat Pumps</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Air Source Heat Pumps</a>
                       <a href="./service-page-1.php" class="submenu-item"
                         >Ground Source Heat Pumps</a
                       >
-                      <a href="./service-page-1.php" class="submenu-item"
-                        >Solar PV</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Solar PV</a>
                     </div>
                   </li>
                 </ul>
@@ -291,6 +283,14 @@
 
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
+      <div class="d-flex text-center mt-3">
+          <div class="col-6 pe-2 text-end">
+              <a style="color:white;" href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div class="col-6 ps-2 text-start">
+              <a style="color:white;" href="./disclaimer.html">Disclaimer</a>
+          </div>
+      </div>
     </section>
 
     <script src="./js/jquery-3.7.0.js"></script>

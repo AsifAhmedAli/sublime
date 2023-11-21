@@ -91,7 +91,7 @@
                 Funding
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./about-us.php">History</a>
+                <a class="dropdown-item" href="./about-us.php">About Us</a>
                 <a class="dropdown-item" href="./echo-4.php">What is Eco 4?</a>
                 <a class="dropdown-item" href="./how-qualify.php">How do I qualify?</a>
               </div>
@@ -787,13 +787,15 @@
                     <li>
                       <div class="fs-6 d-flex gap-2">
                         <i class="bi bi-telephone-fill text-primary"></i>
-                        01274878333
+                        <a href="tel:01924 80621">01924 80621</a>
+                        
                       </div>
                     </li>
                     <li>
                       <div class="fs-6 d-flex gap-2">
                         <i class="bi bi-envelope-at-fill text-primary"></i>
-                        info@sublimeenergyservices.co.uk
+                        <a href="mailto:info@sublimeenergyservices.co.uk">info@sublimeenergyservices.co.uk</a>
+                        
                       </div>
                     </li>
                     <li>
@@ -814,6 +816,14 @@
 
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
+      <div class="d-flex text-center mt-3">
+          <div class="col-6 pe-2 text-end">
+              <a style="color:white;" href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div class="col-6 ps-2 text-start">
+              <a style="color:white;" href="./disclaimer.html">Disclaimer</a>
+          </div>
+      </div>
     </section>
 
     <!-- Modal -->

@@ -52,11 +52,9 @@
                 Funding
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./about-us.php">History</a>
+                <a class="dropdown-item" href="./about-us.php">About Us</a>
                 <a class="dropdown-item" href="./echo-4.php">What is Eco 4?</a>
-                <a class="dropdown-item" href="./how-qualify.php"
-                  >How do I qualify?</a
-                >
+                <a class="dropdown-item" href="./how-qualify.php">How do I qualify?</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -81,9 +79,7 @@
                       <a href="./service-page-1.php" class="submenu-item"
                         >Central Heating Installation</a
                       >
-                      <a href="./service-page-1.php" class="submenu-item"
-                        >Combination Boiler</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Combination Boiler</a>
                     </div>
                   </li>
                   <li class="has-submenu">
@@ -103,15 +99,11 @@
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Renewables</a>
                     <div class="submenu">
-                      <a href="./service-page-1.php" class="submenu-item"
-                        >Air Source Heat Pumps</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Air Source Heat Pumps</a>
                       <a href="./service-page-1.php" class="submenu-item"
                         >Ground Source Heat Pumps</a
                       >
-                      <a href="./service-page-1.php" class="submenu-item"
-                        >Solar PV</a
-                      >
+                      <a href="./service-page-1.php" class="submenu-item">Solar PV</a>
                     </div>
                   </li>
                 </ul>
@@ -148,34 +140,63 @@
         </div>
       </div>
     </nav>
-
     <section class="banner about-us">
-      <h1 class="text-center">What is ECO4 Funding?</h1>
+      <h1 class="text-center">What is ECO 4?</h1>
     </section>
 
     <section class="banner-2">
       <div class="container">
         <div class="text-center">
-          <h2 class="text-primary">Echo 4 Funding</h2>
+          <h2 class="text-primary">ECO 4</h2>
           <!-- <p class="text mb-12">
             We are the North East's Leading energy saving experts…
           </p> -->
           <div class="row">
             <div class="col-lg-10 mx-auto">
               <p class="mb-0 text-start">
-                The Energy Company Obligation (ECO) is a government energy
-                efficiency scheme in Great Britain to help reduce carbon
-                emissions and tackle fuel poverty. The scheme began in April
-                2013 with most of our customers qualifying under the Home Cost
-                Redcution Obligation (HHCRO) Under HHCRO, obligated suppliers
-                must provide measures which improve the ability of households to
-                heat their homes. This includes actions that result in heating
-                savings such as the replacement or repair of a boiler, cavity
-                wall insulation and loft insulation. We’ve installed thousands
-                of energy saving measures across the UK for eligible customers
-                as part of the government’s Energy Company Obligation (ECO)
-                scheme You might also hear of terms like ‘boiler grant’ to
-                describe the scheme.
+                  ECO 4 , also known as Energy Company Obligation 4 is a government initiative in the United Kingdom aimed at reducing carbon emissions and improving energy efficiency in homes. It is part of a wider scheme called the Energy Company Obligation. Under ECO 4, energy suppliers are obligated to fund and deliver energy efficiency measures to eligible households. These measures include Fabric insulation e.g 
+<ul class="mb-0 text-start">
+    <li>
+     Loft insulation    
+    </li>
+        <li>
+     External wall insulation 
+    </li>    <li>
+     Internal wall insulation 
+    </li>    <li>
+     Under floor insulation 
+    </li>    <li>
+     Room in the roof insulation 
+    </li>    <li>
+     heating upgrades
+    </li>
+    <ol>
+        <li>
+            BOILER & Heating control upgrades 
+        </li>
+        <li>
+            FIRST TIME CENTRAL HEATING
+        </li>
+    </ol>
+    <li>
+        Renewables includes
+    </li>
+        <ol>
+        <li>
+            BOILER & Heating control upgrades 
+        </li>
+        <li>
+            Solar pannels installation 
+        </li>
+    </ol>
+</ul>
+
+<p class="mb-0 text-start">Air source heat pump installation and other energy-saving improvements. The funding is provided by the obligated energy companies and is intended to help lower-income households and those living in vulnerable conditions to reduce their energy bills and make their homes more energy-efficient.
+<br>
+The main goal of ECO 4 funding is to address fuel poverty, reduce greenhouse gas emissions, and contribute to the UK's overall energy efficiency targets. It aims to improve the living conditions of households by making their homes more comfortable and affordable to heat.
+<br>
+Overall, ECO 4 funding plays a crucial role in promoting sustainable living, reducing energy consumption, and creating a greener future for the UK.
+</p>
               </p>
               <img src="./images/echo-4.webp" class="img-fluid" alt="" />
             </div>
@@ -257,8 +278,15 @@
 
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
+      <div class="d-flex text-center mt-3">
+          <div class="col-6 pe-2 text-end">
+              <a style="color:white;" href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div class="col-6 ps-2 text-start">
+              <a style="color:white;" href="./disclaimer.html">Disclaimer</a>
+          </div>
+      </div>
     </section>
-
     <script src="./js/jquery-3.7.0.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

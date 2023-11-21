@@ -15,7 +15,12 @@
     >
       <div class="container">
         <a class="navbar-brand" href="./index.php">
-          <img src="./images/sublime-logo.svg" height="70" alt="" />
+          <img
+            src="./images/sublime-logo.svg"
+            height="50"
+            width="201.9"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -49,9 +54,9 @@
                 Funding
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">History</a>
-                <a class="dropdown-item" href="#">What is Eco 4?</a>
-                <a class="dropdown-item" href="#">How do I qualify?</a>
+                <a class="dropdown-item" href="./about-us.php">About Us</a>
+                <a class="dropdown-item" href="./echo-4.php">What is Eco 4?</a>
+                <a class="dropdown-item" href="./how-qualify.php">How do I qualify?</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -73,22 +78,22 @@
                       >Insallation & Upgradation</a
                     >
                     <div class="submenu">
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Central Heating Installation</a
                       >
-                      <a href="" class="submenu-item">Combination Boiler</a>
+                      <a href="./service-page-1.php" class="submenu-item">Combination Boiler</a>
                     </div>
                   </li>
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Replacement</a>
                     <div class="submenu">
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Back Boiler Replacement</a
                       >
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >G Rated Electric Storage Heater Replacement</a
                       >
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Inefficient Boiler Replacement</a
                       >
                     </div>
@@ -96,11 +101,11 @@
                   <li class="has-submenu">
                     <a class="dropdown-item" href="#">Renewables</a>
                     <div class="submenu">
-                      <a href="" class="submenu-item">Air Source Heat Pumps</a>
-                      <a href="" class="submenu-item"
+                      <a href="./service-page-1.php" class="submenu-item">Air Source Heat Pumps</a>
+                      <a href="./service-page-1.php" class="submenu-item"
                         >Ground Source Heat Pumps</a
                       >
-                      <a href="" class="submenu-item">Solar PV</a>
+                      <a href="./service-page-1.php" class="submenu-item">Solar PV</a>
                     </div>
                   </li>
                 </ul>
@@ -387,6 +392,14 @@
   
     <section class="copyright">
       © Copyright 2023, All Rights Reserved | Sublime Energy Services
+      <div class="d-flex text-center mt-3">
+          <div class="col-6 pe-2 text-end">
+              <a style="color:white;" href="privacy-policy.html">Privacy Policy</a>
+          </div>
+          <div class="col-6 ps-2 text-start">
+              <a style="color:white;" href="./disclaimer.html">Disclaimer</a>
+          </div>
+      </div>
     </section>
     <div id="div1" class="d-none"></div>
     <div class="loading" id="loader1" style="visibility: hidden;">Loading&#8230;</div>
